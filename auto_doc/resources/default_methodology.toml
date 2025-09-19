@@ -1,0 +1,27 @@
+[title]
+transform = "upper"
+prefix = ""
+suffix = ""
+
+[sections]
+numbering = true
+start_level = 2
+format = "{number}. {title}"
+case = "title"
+
+[paragraphs]
+indent = 4
+spacing = 1
+
+[bullets]
+marker = "-"
+indent = 2
+
+[text]
+collapse_whitespace = true
+strip_trailing_spaces = true
+
+[[replacements]]
+pattern = '\\s*,\\s*'
+replacement = ', '
+flags = ['MULTILINE']
