@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "user@example.com",
+      "password": "user123",
+      "role": "user"
+    }
+  ],
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Центральная аптека",
+      "address": "ул. Ленина, 15",
+      "district": "central",
+      "phone": "8-800-100-01-01",
+      "hours": "09:00 - 21:00",
+      "isOpen": true
+    },
+    {
+      "id": 2,
+      "name": "Здоровье",
+      "address": "пр. Мира, 28",
+      "district": "north",
+      "phone": "8-800-100-01-02",
+      "hours": "08:00 - 22:00",
+      "isOpen": true
+    },
+    {
+      "id": 3,
+      "name": "Аптека 24",
+      "address": "ул. Гагарина, 42",
+      "district": "south",
+      "phone": "8-800-100-01-03",
+      "hours": "24/7",
+      "isOpen": true
+    }
+  ]
+}
