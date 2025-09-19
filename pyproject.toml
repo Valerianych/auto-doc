@@ -1,0 +1,15 @@
+[project]
+name = "auto-doc"
+version = "0.1.0"
+description = "Приложение для загрузки и форматирования документов по методическим правилам"
+readme = "README.md"
+authors = [{name = "Auto Generated", email = "auto@example.com"}]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+auto-doc = "auto_doc.cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
